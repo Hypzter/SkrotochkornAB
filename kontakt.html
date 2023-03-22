@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="index.html">Startsida</a>
+        </li>
+        <li>
+            <a href="kontakt.html">Kontakta oss</a>
+        </li>
+        <li>
+            <a href="produktsida.html">Produkter</a>
+        </li>
+    </ul>
+
+    <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=cgranfeldt@hotmail.com" method="post">
+        <ul>
+            <table>
+            <tr>
+                <td><label for="name">Namn</label></td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <br>
+            <tr>
+            <td><label for="address">Adress</label></td>
+            <td><input type="text" name="address" id="address"> </td>
+                </tr>
+            <br>
+            <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <br>
+            <tr>
+            <td><label for="phone">Telefonnummer</label></td>
+            <td><input type="text" name="phone" id="phone"></td>
+            </tr>
+            <br>
+
+            </table>
+
+            <br>
+            <label>Privat eller företag</label><br>
+            <input type="radio" name="privateOrCompany" id="private" value="private" <label for="private">
+            Privat</label>
+
+            <br>
+            <input type="radio" name="privateOrCompany" id="company" value="company">
+            <label for="company"> Företag</label>
+            <br>
+            <br>
+
+            <label>Storlek på företaget</label><br>
+            <input type="radio" name="companysize" id="onetohundred" value="onetohundred" <label for="companysize">
+            1-100</label>
+            <br>
+
+            <input type="radio" name="companysize" id="hundredToThousand" value="hundredToThousand">
+            <label for="hundredToThousand"> 101-1000</label>
+            <br>
+
+            <input type="radio" name="companysize" id="thousandPlus" value="thousandPlus">
+            <label for="companysize"> 1000+</label>
+            <br>
+
+            <br>
+            <label for="info">Skriv din fråga:</label><br>
+            <textarea id="info" rows="5" cols="80" name="info"></textarea>
+            <br>
+
+            <br>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Nyhetsbrev</label>
+            <br>
+
+            <input type="checkbox" name="contactedOnPhone" id="contactedOnPhone">
+            <label for="contactedOnPhone">Vill du bli kontaktad per telefon?</label>
+
+
+
+            <br><br>
+            <input type="submit" value="Skicka in">
+        </ul>
+    </form>
+
+
+
+    <p>Kontakt</p>
+
+    <li style="list-style: none;">
+        <p></p>
+        <img src="image/chefen.jpg" width="150">
+        <p>The boss Loffe</p>
+        <a href="mailto:loffe@skrotkorn.se">Mail till Loffe</a>
+    </li>
+    <li style="list-style: none;">
+        <p></p>
+        <img src="image/worker.jfif" width="150">
+        <p>Grävare Greger</p>
+        <a href="mailto:greger@skrotkorn.se">Mail till Greger</a>
+    </li>
+    <li style="list-style: none;">
+        <p></p>
+        <img src="image/hr.jfif" width="150">
+        <p>Hr Pam</p>
+        <a href="mailto:pam@skrotkorn.se">Mail till Pam</a>
+    </li>
+</body>
+
+</html>
